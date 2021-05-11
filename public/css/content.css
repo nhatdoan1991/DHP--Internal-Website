@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway, Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 45px auto;
+    width: 80%;
+}
+
+.content {
+    padding: 0 30px 30px 30px;
+    /*EDITTED HERE*********************************************/
+    
+}
+
+.content-heading {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #959697;
+}
+
+.btn-primary {
+    background: #007bff;
+}
+
+.btn-success {
+    background: #28a745;
+}
+
+.btn-danger {
+    background: #bd2130;
+}
+
+.btn-warning {
+    background: #d39e00;
+}
+
+.btn-inform {
+    background: #333;
+}
+.btn-drop {
+    float: right;
+    margin-top: 20px;
+}
+
+.btn-primary a,
+.btn-primary a:hover,
+.btn-primary a:visited,
+.btn-success a,
+.btn-success a:hover,
+.btn-success a:visited,
+.btn-danger a,
+.btn-danger a:hover,
+.btn-danger a:visited,
+.btn-warning a,
+.btn-warning a:hover,
+.btn-warning a:visited {
+    color: #fff;
+}
+
+.search-group {
+    float: right;
+}
+
+.search-group:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.search-group input[type="text"] {
+    padding: 10px 15px;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.search-group input[type="text"]:focus {
+    outline: 0;
+}
+
+.search-group i {
+    display: inline-block;
+    background: #007bff;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    vertical-align: top;
+}
+
+.order-list {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.order-list .btn {
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+.order-list .btn .fa {
+    margin-right: 2px;
+}
+th {
+    background: #ffffff;
+}
+td,
+th {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f0f5f9;
+}
+tr:nth-child(even) {
+    background-color: #d4e3f0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(1.5, 0.5, 0, 2.5);
+    padding: 12px 16px;
+    text-align: left;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.cancelbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    background-color: #ccc;
+    color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    background-color: #f44336;
+}
+
+.modalContainer {
+    padding: 16px;
+    text-align: center;
+}
+.alert-dhp {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.error {
+    color: red;
+}
+.paginate {
+    font-size: 17px;
+}
+.paginate-select {
+    float: left;
+}
+.paginate-bar {
+    float: right;
+    display: inline-flex;
+}
+
+.profile-content {
+    background-color: #fff;
+    border-style: groove;
+    border-width:thin;
+    border-color: #094ca3;
+    margin: 45px auto;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    content: center;
+}
+.infoHeader {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 15px; 
+    padding-bottom: 15px;
+}
+.infoContent {
+    display:flex;
+    padding: 13px; 
+    font-size:17px;
+    border-top: solid;
+    border-width: thin;
+    border-color:rgb(240, 240, 240);
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.infoContent:hover{
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.infoLeft {
+    width: 30%;
+}
+.infoRight {
+    width: 70%;   
+    overflow-x: hidden;
+    margin-right: 5%;
+}
+.logout {
+    margin: 45px auto;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+    content: center;
+}
+.logOut{
+    font-size: 25px;
+    border: none;
+    background:transparent;
+}
+.logout:hover {
+    cursor:pointer;
+} 

@@ -1,0 +1,74 @@
+.delivery-group-heading{
+    background-color: #999999;
+    display: inline-block;
+    padding: 6px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(230, 238, 231);
+}
+
+.button-collapsible {
+    color: rgb(13, 14, 13);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 0%; 
+    border-top-right-radius: 10px;
+    margin-left: 1px;
+    cursor: pointer;  
+}
+
+.archive-push-button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 6px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top:27px;
+    font-size: 1em;
+    color: #fff;
+}
+.order-delivery {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.status {
+    width: 200px;
+    height: 15px;
+}
+
+.status.completed{
+    background: rgb(40,167,69);
+    color:white;
+    width: 200px;
+}
+.status.unfulfilled{
+    background: rgb(189,33,48);
+    color:white;
+    width: 200px;
+}
+
+.status.ontheway{
+    background: rgb(211,158,0);
+    color:white;
+    width: 200px;
+    height: 5px;
+}
+.status.inDelivery{
+    color:white;
+    background: rgb(119,119,119);
+    width: 200px;
+}
+.button-unfulfilled{
+    background:rgb(189,33,48);
+    padding: 0px 0px;
+    color:white;
+}

@@ -1,0 +1,468 @@
+.DashTitle {
+    font-size: 2.8em;
+}
+.subDashTitle {
+    font-size: 1.4em;
+}
+.driver-content {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    content: center;
+    margin: auto;
+    width: 95%;
+    font-size: 2.1em;
+    padding-top: 1em;
+}
+
+div.kitchen-address {
+    font-size: 0.9em;
+}
+.group-heading {
+    display: inline-block;
+}
+.group-content {
+    background: #fff;
+    content: center;
+    padding: 1em 0 1em;
+    margin: 0 auto 1em;
+    width: 27em;
+}
+.group-heading-day {
+    float: left;
+    display: inline;
+}
+.group-heading-date {
+    float: center;
+    display: inline;
+}
+.group-heading-orders {
+    float: right;
+    display: inline;
+}
+
+.pickup {
+    display: inline-block;
+    padding-top: 5%;
+    width: 95%;
+    font-size: 150%;
+}
+
+.group-heading {
+    display: inline-block;
+}
+
+.group-heading-day {
+    float: left;
+    display: inline;
+}
+.group-heading-date {
+    float: center;
+    display: inline;
+}
+.group-heading-orders {
+    float: right;
+    display: inline;
+}
+
+.delivery-group {
+    display: inline-block;
+    content: center;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-top: 0.2em;
+    width: 18.1em;
+    font-size: 150%;
+    color: #fff;
+    border: 0;
+    padding: 0.2em 0.4em;
+}
+
+.delivery-group-available {
+    background-color: #094ca3;
+}
+
+.delivery-group-future {
+    background-color: #5fc5ff;
+}
+.delivery-group-future-order {
+    background-color: #5fc5ff;
+}
+.delivery-group-active-order {
+    background-color: #094ca3;
+}
+.delivery-group-inprogress {
+    background-color: #ff8d00;
+}
+.delivery-group-completed {
+    background-color: #96d99f;
+}
+
+.delivery-group-drivers {
+    background-color: #20dfec;
+    display: inline-block;
+    padding: 6px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-collapsible-driver {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.unabled-btn {
+    background-color: cadetblue;
+}
+
+.button {
+    padding: 0.2em 0.2em;
+    font-size: 1.5em;
+    border-radius: 0.3em;
+    border: 0;
+    color: #fff;
+}
+.button-modal {
+    padding: 0.2em 0.2em;
+    font-size: 2em;
+    border-radius: 0.3em;
+    border: 0;
+    color: #fff;
+    width: 12em;
+    height: 2.5em;
+    margin: 0.1em 0em;
+}
+.button-main {
+    background: #094ca3;
+}
+.button-available {
+    background: #5fc5ff;
+}
+.button-completed {
+    background: #96d99f;
+}
+.button-red-white {
+    width: 7em;
+    height: 2.5em;
+    margin: 0.1em 0em;
+    background: #fff;
+    color: #ba2000;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ba2000;
+}
+.button-border-red {
+    margin: 1em 0em;
+    background: #fff;
+    color: #ba2000;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ba2000;
+    font-size: 2em;
+    width: 12em;
+    height: 2.5em;
+}
+.button-modal-red {
+    background: #ba2000;
+}
+.button-modal-report {
+    background: #ff8d00;
+}
+.button-red {
+    background: #ba2000;
+    width: 6em;
+    height: 2.5em;
+}
+.button-disabled {
+    background: #868686;
+    width: 6em;
+    height: 2.5em;
+}
+.button-finished {
+    width: 10em;
+    height: 2.5em;
+}
+.button-contact {
+    background: #709dff;
+}
+.button-report {
+    background: #ff8d00;
+    width: 7em;
+    height: 2.5em;
+    margin: 1em 0px;
+}
+.button-map {
+    background: none;
+    padding: 0;
+    border: none;
+    color: #09802d;
+    font-size: 150%;
+}
+.kitchen-navigation {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    align-content: center;
+    background-color: #709dff;
+}
+.kitchen-address {
+    margin: auto;
+    padding: 5%;
+    font-size: medium;
+    display: inline;
+}
+
+.pickup-buttons {
+    padding-top: 2%;
+}
+.group-table {
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    width: 26em;
+    display: table;
+    background: #fff;
+}
+
+.group-table-row {
+    display: table-row;
+}
+.group-table-cell {
+    display: table-cell;
+    width: 15%;
+    margin-bottom: 5%;
+}
+
+.circle {
+    display: block;
+    height: 140%;
+    width: 140%;
+    line-height: 140%;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-size: 100%;
+}
+
+.btn_image {
+    background-color: #ffffff;
+    border-style: groove;
+    border-radius: 10px;
+    width: 25%;
+    margin: 5px 3px;
+}
+.btn_image a {
+    text-decoration: none;
+}
+.btn-arrive-customer {
+    width: 7em;
+}
+.call_btn,
+.msg_btn,
+.direction_btn {
+    width: 5em;
+    height: 2.5;
+    margin: 1em 0em;
+    border-color: #709dff;
+}
+
+.btn_direction {
+    width: 6.7em;
+    background-color: #709dff;
+    color: black;
+}
+.btn_direction_disable {
+    width: 6.7em;
+    background-color: #bdbec2;
+}
+.btn_direction a {
+    color: #fff;
+}
+.btn_direction_disable a {
+    color: white;
+}
+
+.swapButton {
+    width: 7em;
+    font-size: 1.4em;
+    height: 2.5em;
+}
+.detail-box {
+    border-style: ridge;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 10px 20px;
+    text-align: start;
+    font-size: 1.2em;
+}
+.report-text {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.modal-content {
+    width: 80%;
+}
+
+button.btn_image.btn_direction_disable,
+button.btn_image,
+button.btn.button-red,
+button.btn.button-report,
+button.btn.btn-secondary.button-disabled {
+    height: 200px;
+    font-size: 1.4em;
+}
+
+.btn-logout-driver {
+    background-color: inherit;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    text-decoration: none;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    font-size: 3.5em;
+    float: right;
+}
+.btn-profile-driver {
+    background-color: #094ca3;
+    border: none;
+    color: #fff;
+    text-align: right;
+    text-decoration: none;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    font-size: 3.7em;
+    float: left;
+    border-radius: 50%;
+    padding: .2em;
+    
+}
+
+.btn-return-driver {
+    background-color: inherit;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    text-decoration: none;
+    padding-top: 2%;
+    padding-bottom: inherit;
+    padding-left: 3%;
+    font-size: 3em;
+    float: left;
+}
+.message-box {
+    border-style: groove;
+}
+.operator-message {
+    text-align: end;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.driver-message {
+    text-align: start;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.driver-modal-message {
+    font-size: 1.3em;
+}
+
+.button-active {
+    background-color: #1c87c9;
+}
+  @keyframes glowing {
+    0% {
+      background-color: #5fc5ff;
+      box-shadow: 0 0 5px #5fc5ff;
+    }
+    50% {
+      background-color: #094ca3;
+      box-shadow: 0 0 20px #094ca3;
+    }
+    100% {
+      background-color: #5fc5ff;
+      box-shadow: 0 0 5px #5fc5ff;
+    }
+  }
+  .button-active {
+    animation: glowing 1300ms infinite;
+  }
+
+  .driverProfile-content {
+    background-color: #fff;
+    border-style: groove;
+    border-width:thin;
+    border-color: #094ca3;
+    padding : .5em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    content: center;
+}
+.driverInfoHeader {
+    font-size: 5em;
+    text-align: left;
+    padding-left: .5em; 
+    padding-bottom: .2em;
+}
+.driverInfoContent {
+    display:flex;
+    padding: 1em; 
+    font-size:2.4em;
+    border-top: solid;
+    border-width: thin;
+    border-color:rgb(240, 240, 240);
+    text-align: left;
+    
+}
+.driverInfoContent:hover{
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.driverInfoLeft {
+    width: 30%;
+}
+.driverInfoRight {
+    width: 60%;  
+    overflow-x: hidden; 
+    margin-right: 1em;
+}
+.driverLogout {
+    margin: 45px auto;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    content: center;
+}
+.driverLogOut{
+    font-size: 4em;
+    border: none;
+    background:transparent;
+}
+.driverContent-heading{
+    text-align: center;
+    font-size: 7em;
+    text-transform: uppercase;
+    margin: .4em 0;
+}
+.driver-container {
+    padding:3em;
+}

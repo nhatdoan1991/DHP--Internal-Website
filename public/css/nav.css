@@ -1,0 +1,172 @@
+* {
+
+  font-family: Raleway, Georgia, "Times New Roman", Times, serif;
+}
+
+ul.menu{
+  background: rgb(2, 0, 36);
+  background: linear-gradient(to right, rgb(19, 30, 53) , #094ca3);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  padding-top:5px;
+  padding-bottom:5px;
+  display: flex;
+  font-size: 19px;
+  
+}
+
+
+img.nav-logo {
+  height: 50px;
+  vertical-align: top;
+  float:left;
+  padding-left: 40px;
+  
+}
+
+li.logo, li.item {
+  float:left;
+  
+}
+
+li.logo a, li.item a, li.item2{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li.item2 {
+  padding-right: 50px;
+}
+li.item a:hover{
+  background-color: rgb(255, 255, 255);
+  color:black;
+}
+
+
+/* login screen*/
+div.loginBody{
+  height: 100vh;
+}
+div.registrationBody, div.loginBody,  div.forgotPassBody, div.resetPassBody{
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  width: auto;
+  overflow: auto;
+  margin-top: auto;
+}
+div.loginBody, div.registrationBody {
+  align-items: center;
+  
+}
+
+div.registrationBody form{
+
+  width:400px;
+}
+.btn-submit {
+  
+  background-color: Blue;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1em;
+  width:100%;
+  padding:10px;
+}
+
+.btn-logout{
+  background-color: inherit;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 3em;
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
+
+.btn-profile {
+  background-color: inherit;
+  border: none;
+  color:rgb(255, 255, 255)
+}
+
+  
+
+.btn-logout:hover,
+.btn-profile:hover{
+  color:black;
+  background-color:white;
+  
+}
+
+p.forgotPassPrompt {
+  margin: 0 auto;
+  max-width: 300px;
+  border: solid 2px rgb(194, 114, 197);
+  padding: 12px;
+  background-color: white;
+}
+
+.btn-logout-driver {
+  background-color: inherit;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  text-decoration: none;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  font-size: 3em;
+  float: right;
+}
+
+.profileModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.profileModal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profileA {
+  text-decoration: none;
+}

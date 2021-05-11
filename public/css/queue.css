@@ -1,0 +1,173 @@
+.queue-catagories {
+    padding-top: 15px;
+}
+
+.queue-group-heading {
+    background-color: rgb(180, 180, 180);
+    display: inline-block;
+    padding: 6px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.no-order-table {
+    text-align: center;
+    margin: auto;
+}
+
+.order-queue {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+
+.order-queue .btn {
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+
+.order-queue .btn .fa {
+    margin-right: 2px;
+}
+.no-table {
+    text-align: center;
+}
+.button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(230, 238, 231);
+}
+.button:hover {
+    filter: brightness(0.5);
+}
+a {
+    text-decoration: none;
+}
+.button-collapsible {
+    color: rgb(13, 14, 13);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 0%;
+    border-top-right-radius: 10px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.button-collapsible::after {
+    filter: brightness(0.8);
+}
+.active,
+.button-collapsible:hover {
+    filter: brightness(0.8);
+}
+
+.content-collapsible {
+    margin-top: -19px;
+    display: block;
+}
+
+.button-modal {
+    background: #e9e7da;
+    color: rgb(20, 22, 20);
+}
+.button-drop {
+    background: rgb(51, 51, 51);
+}
+.button-dropDown {
+    background: rgb(51, 51, 51);
+    width: 120px;
+}
+
+.archive-push-button {
+    background-color: rgb(85, 170, 74);
+    display: inline-block;
+    padding: 6px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 27px;
+}
+.status.completed {
+    background: rgb(40, 167, 69);
+    color: white;
+}
+.status.unfulfilled {
+    background: rgb(189, 33, 48);
+    color: white;
+}
+.status.ontheway {
+    background: rgb(211, 158, 0);
+    color: white;
+}
+.status.inDelivery {
+    color: white;
+    background: rgb(119, 119, 119);
+}
+.status i {
+    margin-right: 10px;
+}
+
+.dropdown {
+    padding-right: 5px;
+}
+.newGroup {
+    float: left;
+    padding-right: 5px;
+}
+.draggable.no-table {
+    text-align: center;
+}
+.draggable.dragging {
+    opacity: 0.5;
+}
+.draggable-button {
+    padding: 10px;
+}
+.draggable-form {
+    display: inline;
+    float: right;
+}
+/*need this for drop target*/
+.droptarget.targetting {
+    border-radius: 10%;
+}
+.bottomPage {
+    padding-bottom: 1250px;
+}
+label {
+    margin-left: 20px;
+}
+.modal-deletgroup {
+    padding: -50px;
+}
+tr:nth-child(even) {
+    background-color: #f0f5f9;
+}
+tr:nth-child(odd) {
+    background-color: #d4e3f0;
+}
+.grouporder-assigned-detail {
+    display: inline;
+    background-color: rgb(240, 240, 240);
+    filter: brightness(0.8);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.grouporder-assigned-detail-missing {
+    display: inline;
+    background-color: rgb(250, 225, 225);
+    filter: brightness(0.8);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.checkmap-button {
+    background-color: rgb(232, 232, 232);
+    color: black;
+    border-radius: 10px;
+    border-style: hidden;
+}
+.checkmap-button:hover {
+    background-color: rgb(196, 224, 255);
+}
