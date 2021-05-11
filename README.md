@@ -13,3 +13,7 @@
  5. Setup database info in .env
  6. Migrate database
  7. run 'php artisan key:generate' in cmd
+ # Queue page for managers
+ ![alt text](https://github.com/nhatdoan1991/DHP--Internal-Website/blob/main/queue.PNG?raw=true)
+  # Drivers delivery page 
+ ![alt text](https://github.com/nhatdoan1991/DHP--Internal-Website/blob/main/driver-delivery.PNG?raw=true)
